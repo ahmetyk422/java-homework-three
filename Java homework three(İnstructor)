@@ -1,0 +1,13 @@
+package Day3;
+
+public class Instructor extends Users{
+int instructorNumber;
+public int getinstructorNumber(){
+  return instructorNumber;  
+}
+public void setinstructorNumber(int instructorNumber){
+  this.instructorNumber=instructorNumber;
+
+}
+
+}
