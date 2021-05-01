@@ -1,0 +1,16 @@
+package Day3;
+
+import Day3.Students;
+
+public class StudentsManager {
+  public void add(Students user){
+  System.out.println("Talebe eklendi :  "+user.getName()+"\t"+user.getId()+" \t"+user.getpassword());
+}
+public void remove(Students user){
+  System.out.println("Talebe silindi"+user.getName());
+}
+public void update(Students user){
+  System.out.println("Talebe güncellendi"+user.getName());
+     }
+
+}
