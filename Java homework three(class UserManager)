@@ -1,0 +1,19 @@
+package Day3;
+
+import Day3.UserManager;
+import Day3.Users;
+
+
+public class UserManager  {
+
+public void add(Users user){
+  System.out.println("Kullanici eklendi :"   +user.getName()+" \t"+user.getId()+" \t"+user.getpassword());
+}
+public void update(Users user){
+  System.out.println("Kullanici guncellendi :"+user.getName());
+}
+public void remove(Users user){
+  System.out.println("Kullanici silindi :"+user.getName());
+}
+
+}
