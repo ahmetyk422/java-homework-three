@@ -1,0 +1,24 @@
+package Day3;
+
+import Day3.Instructor;
+
+
+
+
+
+public class InstructorManager {
+String Manager;
+public void add(Instructor user){
+  System.out.println("Hoca eklendi : "+user.getName()+"   \t"+user.getId()+" \t"+user.getpassword());
+}
+public void remove(Instructor user){
+  System.out.println("Hoca silindi :"+user.getName());
+}
+public void update(Instructor user){
+  System.out.println("Hoca güncellendi :"+user.getName());
+  
+  
+     }
+
+
+}
