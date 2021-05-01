@@ -1,0 +1,50 @@
+package Day3;
+
+public class Users {
+private int id;
+private String Name ;
+private String SurName;
+private String password;
+private String email;
+public Users(int id,String Name,String SurName,String password,String email){
+  super();
+  this.id =id;
+  this.Name = Name;
+  this.SurName = SurName;
+  this.password = password;
+  this.email = email;
+}
+public Users(){
+}
+
+public int getId(){
+  return id;
+}
+public void setId(int id){
+  this.id =id;
+}
+public String getName(){
+  return Name;
+}
+public void setName(String Name){
+  this.Name=Name;
+}
+public String getSurName(){
+  return SurName;
+}
+public void setSurName(String SurName){
+  this.SurName=SurName;
+}
+public String getpassword(){
+  return password;
+}
+public void setpassword(String password){
+  this.password = password;
+}
+public String getemail(){
+  return email;
+}
+public void setemail(String email){
+  this.email =email;
+}
+}
