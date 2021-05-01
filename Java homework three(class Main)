@@ -1,0 +1,41 @@
+Users user2 = new Users();
+     user2.setName("Amırbin");
+     user2.setId(4);
+     user2.setpassword("4567");
+   
+   Instructor instructor1 = new Instructor();
+     instructor1.setName("Volkan bin");
+     instructor1.setId(5);
+     instructor1.setpassword("1748");
+     
+     Instructor instructor2 = new Instructor();
+     instructor2.setName("Abdurrezzak");
+     instructor2.setId(6);
+     instructor2.setpassword("1740");
+     
+     
+     
+     StudentsManager manager = new StudentsManager();
+     manager.add(student1);
+     manager.add(student2);
+    
+    System.out.println("\n"+"-----------------");
+    
+    UserManager manager1 = new UserManager();
+     manager1.add(user1);
+     manager1.add(user2);
+ 
+    System.out.println("\n"+"-----------------");
+    
+    InstructorManager manager2 = new InstructorManager();
+    manager2.add(instructor1);
+    manager2.add(instructor2);
+ 
+ 
+ 
+    }
+   
+     
+    }
+   
+    
